@@ -8,8 +8,8 @@ This project is designed to streamline the management of employee details for th
 - **Frontend Framework**: Angular (considering options such as React, Vue.js with justifications for each)
 - **Repository**: GitHub
 - **Containerization**: Docker
-- **Testing Frameworks**: Jest, Mocha
-- **Security Tools**: Helmet, JWT, bcrypt
+- **Testing Frameworks**: XYZ (considering alternatives such as Jest, Mocha)
+- **Security Tools**: XYZ (considering alternatives such as Helmet, JWT, bcrypt)
 
 ## Functionalities
 - **Create Employee Records**: Add new fields to existing tables to capture details of new employees.
