@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-project-demo",
+  "version": "1.0.0",
+  "description": "This project is designed to streamline the management of employee details for the HR team of a corporate organization. It provides a solution for creating, reading, updating, and deleting employee information, ensuring efficient tracking and management of employee data. By using this tool, HR personnel can handle employee records in a structured and dynamic manner.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
