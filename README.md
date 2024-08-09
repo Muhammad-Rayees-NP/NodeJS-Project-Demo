@@ -8,8 +8,6 @@ This project is designed to streamline the management of employee details for th
 - **Frontend Framework**: Angular (considering options such as React, Vue.js with justifications for each)
 - **Repository**: GitHub
 - **Containerization**: Docker
-- **Testing Frameworks**: XYZ (considering alternatives such as Jest, Mocha)
-- **Security Tools**: XYZ (considering alternatives such as Helmet, JWT, bcrypt)
 
 ## Functionalities
 - **Create Employee Records**: Add new fields to existing tables to capture details of new employees.
@@ -32,4 +30,4 @@ This project is designed to streamline the management of employee details for th
 ## Observability
 - **Logging**: Implementing comprehensive logging with tools like Winston to capture application events and errors.
 - **Monitoring**: Setting up monitoring with tools like Prometheus and Grafana to track application performance and health.
-- **Alerting**: Configuring alerts for critical issues to ensure timely resolution.
+
