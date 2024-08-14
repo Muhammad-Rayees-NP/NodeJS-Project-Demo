@@ -1,21 +1,20 @@
-const mongoose =require('mongoose');
-const productSchema = mongoose.Schema(
+const mongoose = require('mongoose');
+
+const employeeSchema = mongoose.Schema(
     {
         name: {
             type: String,
-            required: [true, "Please enter a productname"]
-
+            required: [true, "Please enter an employee name"]
         },
-        quantity: {
-            type: Number,
-            required: true,
-            default: 0
+        phoneNumber: {
+            type: String,
+            required: [true, "Please enter a phone number"]
         },
-        price: {
-            type: Number,
-            required: true,
+        visaID: {
+            type: String,
+            required: [true, "Please enter a visa ID"]
         },
-        image: {
+        address: {
             type: String,
             required: false,
         }
@@ -23,7 +22,7 @@ const productSchema = mongoose.Schema(
     {
         timestamps: true
     }
-)
+);
 
-const Product = mongoose.model("Product", productSchema);
-module.exports = Products;
+const Employee = mongoose.model("Employee", employeeSchema);
+module.exports = Employee;
