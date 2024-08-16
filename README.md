@@ -8,8 +8,7 @@ This API is ideal for developers or organizations looking to manage employee dat
 - **Backend**: Node.js (Version 20), Express
 - **Database**: MongoDB
 - **Repository**: GitHub
-- **Testing Frameworks**: Jest, Supertest
-- **Other dependencies**: Nodemon
+
 
 ## Functionalities
 - **Create Employee Records**: Add new fields to existing tables to capture details of new employees.
@@ -18,4 +17,3 @@ This API is ideal for developers or organizations looking to manage employee dat
 - **Delete Employee Records**: Remove employee details when they are no longer part of the organization.
 
 ## Testing
-- **Unit Testing**: Using Jest to test individual components and functions. 
